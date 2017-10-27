@@ -23,7 +23,11 @@ import com.gh.minawebsocket.bean.TextMessageFrame;
 import com.gh.minawebsocket.bean.WebSocketFrame;
 import com.gh.minawebsocket.core.WebSocketHandler;
 import com.gh.minawebsocket.core.WebSocketProtocalConst;
-
+/**
+ * 消息处理器
+ * @author chao
+ * @date 2017-10-27
+ */
 public class ServerHandler extends IoHandlerAdapter {
 	WebSocketHandler serverHandler = null;
 	private final static Logger log = LogManager

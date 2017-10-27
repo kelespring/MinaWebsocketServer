@@ -19,8 +19,10 @@ import com.gh.minawebsocket.bean.PingFrame;
 import com.gh.minawebsocket.bean.PongFrame;
 import com.gh.minawebsocket.bean.TextMessageFrame;
 import com.gh.minawebsocket.handler.ServerHandler;
-/*
- * 2017-10-22 帧操作类
+/**
+ * 处理帧帮助类
+ * @author chao
+ * @date 2017-10-27
  */
 public class FrameUtils {
 	private final static Logger log = LogManager

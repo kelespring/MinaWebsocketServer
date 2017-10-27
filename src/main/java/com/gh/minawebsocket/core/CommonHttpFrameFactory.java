@@ -1,5 +1,10 @@
 package com.gh.minawebsocket.core;
 import org.apache.mina.core.buffer.IoBuffer;
+/**
+ * http帧工厂，生产通用帧
+ * @author chao
+ * @date 2017-10-27
+ */
 public class CommonHttpFrameFactory {
 	
 	/**

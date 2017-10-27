@@ -34,9 +34,9 @@ import com.gh.minawebsocket.core.FrameUtils;
 import com.gh.minawebsocket.core.Session;
 import com.gh.minawebsocket.core.WebSocketProtocalConst;
 /**
+ * 解码器
  * @author chao
  * @date 2017-10-24
- * 解码器
  */
 public class Decoder extends CumulativeProtocolDecoder {
 	//用于打印日志信息

@@ -4,7 +4,12 @@ import org.apache.mina.core.session.IoSession;
 import org.apache.mina.filter.codec.ProtocolCodecFactory;
 import org.apache.mina.filter.codec.ProtocolDecoder;
 import org.apache.mina.filter.codec.ProtocolEncoder;
-
+/**
+ * 编码器工厂
+ * @author chao
+ * @data 2017-10-27
+ *
+ */
 public class CodecFactory implements ProtocolCodecFactory {
 	private Decoder decoder;
 	private Encoder encoder;

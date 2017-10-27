@@ -1,5 +1,10 @@
 package com.gh.minawebsocket.commonenum;
-
+/**
+ * opcode操作枚举类
+ * @author chao
+ * @date 2017-10-27
+ *
+ */
 public enum OpcodeEnum {
 	//关闭类
 	Close_Normal_Closure((short)1000),//正常关闭

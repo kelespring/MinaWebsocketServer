@@ -1,16 +1,16 @@
 package com.gh.minawebsocket.bean;
-
-import java.text.DateFormat;
-import java.text.SimpleDateFormat;
-import java.util.Calendar;
-import java.util.Locale;
-import java.util.TimeZone;
 import org.apache.commons.lang3.StringUtils;
 import org.apache.mina.core.buffer.IoBuffer;
 
 import com.gh.minawebsocket.core.FrameUtils;
 import com.gh.minawebsocket.core.HttpProtocalConst;
 
+/**
+ * http握手响应帧
+ * @author chao
+ * @data 2017-10-27
+ *
+ */
 public class HttpWebsocketHandshakeResponseFrame extends HttpResponseFrame{
 //	private String responseCode = "";
 //	private String upgrade = "";

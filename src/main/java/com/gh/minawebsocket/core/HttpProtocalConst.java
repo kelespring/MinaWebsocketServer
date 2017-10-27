@@ -1,5 +1,9 @@
 package com.gh.minawebsocket.core;
-
+/**
+ * http协议常量
+ * @author chao
+ * @data 2017-10-27
+ */
 public class HttpProtocalConst {
 	public static String HTTP_PROTOCAL_VERSION = "HTTP/1.1";//http协议版本号
 	public static String HTTP_SWITCHING_PROTOCALS_CODE = "101";//切换协议	

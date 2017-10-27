@@ -8,7 +8,7 @@ import com.gh.minawebsocket.bean.TextMessageFrame;
 /**
  * websocketHandler interface
  * @author chao
- *
+ * @date 2017-10-27
  */
 public interface WebSocketHandler {
 	public void onOpen(IoSession session);

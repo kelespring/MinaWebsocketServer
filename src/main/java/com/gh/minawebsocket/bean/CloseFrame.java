@@ -1,7 +1,11 @@
 package com.gh.minawebsocket.bean;
 
 import com.gh.minawebsocket.commonenum.OpcodeEnum;
-
+/**
+ * 关闭帧
+ * @author chao
+ * @date 2017-10-27
+ */
 public class CloseFrame extends WebsocketControlFrame{
 	short code;
 	private String address = "";

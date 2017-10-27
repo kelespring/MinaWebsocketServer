@@ -1,5 +1,9 @@
 package com.gh.minawebsocket.bean;
-
+/**
+ * 文本帧
+ * @author chao
+ * @data 2017-10-27
+ */
 public class TextMessageFrame extends WebsocketDataFrame{
 	private String content="";//内容
 

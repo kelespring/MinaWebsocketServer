@@ -5,7 +5,7 @@ import org.apache.mina.core.session.IoSession;
 /**
  * 自定义session扩展
  * @author chao
- *
+ * @date 2017-10-27
  */
 public class Session {
 	IoSession session;
